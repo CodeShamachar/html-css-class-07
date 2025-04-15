@@ -1,0 +1,207 @@
+/* code by Asadujjaman Alif */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+img{
+  height: 20px;
+}
+
+body{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(night\ bg\ img.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: #251330;
+}
+
+
+.main_Container{
+  height: 600px;
+  width: 450px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+form{
+  padding: 20px 15px;
+}
+
+form h1{
+  height: 50px;
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-align: center;
+  cursor: default;
+}
+
+.input_Section{
+  height: 50px;
+  width: 90%;
+  margin: auto;
+  border: 1px solid #c0c0c0;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.input_Section input{
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 1rem;
+}
+
+.input2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input2 i{
+  font-size: 1.2rem;
+  padding-right: 10px;
+  color: #7c7c7c;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.input2 i:hover{
+  color: black;
+}
+
+.input_Section:hover{
+  border: 1px solid #0a3fd0;
+}
+
+.forget_pass{
+  margin: 20px 0;
+  width: 100%;
+  text-align: center;
+}
+
+.forget_pass a{
+  text-decoration: none;
+  color: #0a3fd0;
+}
+
+.forget_pass a:hover{
+  text-decoration: underline;
+}
+
+.button_Section{
+  height: 50px;
+  width: 90%;
+  margin: auto;
+}
+
+.button_Section button{
+  height: 100%;
+  width: 100%;
+  border: none;
+  font-size: 1rem;
+  background-color: #0171d3;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: .5s;
+}
+
+
+.button_Section button:hover{
+  background-color: #0c60aa ;
+}
+
+
+.form_link{
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.form_link a{
+  text-decoration: none;
+  color: #0a3fd0;
+}
+
+.form_link a:hover{
+  text-decoration: underline;
+}
+
+
+.line{
+  position: relative;
+  height: 1px;
+  width: 85%;
+  background-color: #d4d4d4;
+  margin: auto;
+}
+
+.line::before{
+  position: absolute;
+  content: 'Or';
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 0 15px;
+}
+
+.social_section{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.fb_button, .google_button{
+  height: 50px;
+  width: 85%;
+  margin: auto;
+  background-color: #4267b2;
+  color: #fff;
+  border-radius: 5px;
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  cursor: pointer;
+}
+
+.google_button{
+  background-color: transparent;
+  color: #7c7c7c;
+  border: 1px solid #c0c0c0;
+  transition: .5s;
+}
+
+.fb_button i{
+  height: 30px;
+  width: 30px;
+  background-color: #fff;
+  color: #4267b2;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  line-height: 30px;
+  text-align: center;
+}
+
+.fb_button:hover{
+  background-color: #4070f4;
+}
+
+.google_button:hover{
+  border: 1px solid #4e4e4e;
+  color: #4e4e4e;
+}
